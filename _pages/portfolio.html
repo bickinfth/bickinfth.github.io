@@ -1,0 +1,17 @@
+---
+layout: archive
+title: "Research"
+permalink: /portfolio/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% capture portfolio_content %}
+  {% include_relative portfolio.md %}
+{% endcapture %}
+{{ portfolio_content | markdownify }}
+
+{% for post in site.portfolio %}
+  {% include archive-single.html %}
+{% endfor %}
