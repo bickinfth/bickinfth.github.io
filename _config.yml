@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Neşet Fatih Biçkin"
 title_separator          : "-"
 name                     : &name "Neşet Fatih Biçkin"
-description              : &description "personal description"
+description              : &description "Academic profile of Neşet Fatih Biçkin, Research Assistant and Ph.D. student in computational mechanics."
 url                      : https://bickinfth.github.io
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,11 +26,11 @@ author:
   avatar           : "profile.png"
   name             : "Neşet Fatih Biçkin"
   pronouns         : # example: "she/her"  
-  bio              : "Researcher"
+  bio              : "Research Assistant in Computational Mechanics"
   location         : "Istanbul, Türkiye"
   employer         : "Yeditepe University"
   uri              : "https://yeditepe.edu.tr/en/academic-staff/8064"
-  email            : "bickinnesetfatih@gmail.com" 
+  email            : "nesetfatih.bickin@yeditepe.edu.tr"
 
   # Academic websites
   academia         : # URL
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "neset-fatih-bickin"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -168,6 +168,16 @@ include:
   - _pages
   - files
 exclude:
+  - BASLARKEN.md
+  - README.md
+  - docker-compose.yaml
+  - files
+  - markdown_generator
+  - scripts
+  - talkmap
+  - talkmap.ipynb
+  - talkmap.py
+  - talkmap_out.ipynb
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

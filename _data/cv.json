@@ -1,152 +1,199 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
-    "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
-    },
+    "name": "Neşet Fatih Biçkin",
+    "label": "Research Assistant and Integrated Ph.D. Student in Mechanical Engineering",
+    "email": "nesetfatih.bickin@yeditepe.edu.tr",
+    "website": "https://bickinfth.github.io",
+    "summary": "Research Assistant and integrated Ph.D. student at Yeditepe University, specializing in computational mechanics, finite element analysis, and advanced simulation. My current research uses Firedrake and PETSc to investigate elastic-wave propagation and band-gap formation in two-dimensional periodic metamaterials.",
+    "location": {"city": "Istanbul", "country": "Türkiye"},
     "profiles": [
-      {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
-      },
-      {
-        "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
-      }
+      {"network": "LinkedIn", "url": "https://www.linkedin.com/in/neset-fatih-bickin"},
+      {"network": "ORCID", "url": "https://orcid.org/0009-0006-4726-9746"},
+      {"network": "GitHub", "url": "https://github.com/bickinfth"}
     ]
   },
-  "work": [],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "degree": "Integrated Ph.D. in Mechanical Engineering",
+      "institution": "Yeditepe University",
+      "period": "Feb 2025 - Present",
+      "highlights": [
+        "Admitted directly to the doctoral program without completing a master's degree.",
+        "Specializing in computational mechanics, finite element analysis, and advanced simulation techniques."
+      ]
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "degree": "B.Sc. in Mechanical Engineering",
+      "institution": "Yeditepe University (100% Scholarship)",
+      "period": "Sep 2020 - Feb 2025",
+      "gpa": "3.14/4.00",
+      "highlights": [
+        "Senior project: Upgrading an Existing Open-Source FEA Code to Determine Resonance in Piezoelectric Bodies."
+      ]
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
-  "references": [],
-  "publications": [
+  "experienceSections": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Academic Experience",
+      "items": [
+        {
+          "title": "Research Assistant",
+          "organization": "Yeditepe University, Department of Mechanical Engineering",
+          "period": "2025 - Present",
+          "highlights": [
+            "Support undergraduate laboratory courses while pursuing doctoral research in computational mechanics."
+          ]
+        },
+        {
+          "title": "Student Assistant",
+          "organization": "Yeditepe University",
+          "period": "Feb 2023 - Feb 2025",
+          "highlights": [
+            "Facilitated communication between the Mechanical Engineering Department and students.",
+            "Conducted problem-solving sessions for undergraduate Thermodynamics students."
+          ]
+        }
+      ]
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Research Experience",
+      "items": [
+        {
+          "title": "Doctoral Research - Elastic Metamaterials",
+          "organization": "Yeditepe University",
+          "period": "2025 - Present",
+          "highlights": [
+            "Model elastic-wave propagation and dispersion in two-dimensional periodic metamaterial unit cells.",
+            "Use Firedrake and PETSc to compute and tailor phononic band gaps through unit-cell geometry and material distribution."
+          ]
+        },
+        {
+          "title": "Intern Researcher - TÜBİTAK 2519 COST International Working Group",
+          "organization": "Yeditepe University",
+          "period": "Feb 2024 - Jul 2024",
+          "highlights": [
+            "Investigated the effects of aging on blood-vessel mechanical properties using in-vitro and in-silico mechanical behavior curves."
+          ]
+        },
+        {
+          "title": "Intern Researcher - TÜBİTAK 2247-C Research Program",
+          "organization": "Yeditepe University",
+          "period": "May 2023 - Dec 2023",
+          "highlights": [
+            "Performed numerical and theoretical analysis of coupled piezoelectric and elastic motion equations.",
+            "Validated analytical solutions with symbolic mathematics and open-source finite element models in FEniCS."
+          ]
+        }
+      ]
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Selected Project",
+      "items": [
+        {
+          "title": "Open-Source FEA for Piezoelectric Resonance",
+          "organization": "Senior Project, Yeditepe University",
+          "period": "2024 - 2025",
+          "highlights": [
+            "Migrated a piezoelectric solver from FEniCS to FEniCSx, resolving compatibility issues and improving computational efficiency.",
+            "Simulated acoustic-piezoelectric interactions in metamaterials using advanced meshing and numerical techniques."
+          ]
+        }
+      ]
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Professional Experience",
+      "items": [
+        {
+          "title": "Summer Intern - Wind Tunnel Model Assembly Unit",
+          "organization": "Turkish Aerospace Industries, Experimental Aerodynamics Directorate",
+          "period": "Jul 2024 - Aug 2024",
+          "highlights": [
+            "Assisted with precision assembly of wind-tunnel models for aerodynamic testing, including the KAAN program."
+          ]
+        },
+        {
+          "title": "Intern - Production and Maintenance Department",
+          "organization": "Kalde Klima Medium Pressure Fittings and Valve Industry Inc.",
+          "period": "Jul 2022 - Aug 2022",
+          "highlights": [
+            "Gained practical experience with lathe and milling operations for plastic-material processing."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Teaching Experience",
+      "items": [
+        {
+          "title": "Instrumentation and Design of Experiments (Laboratory)",
+          "organization": "Yeditepe University",
+          "period": "2025 - 2026",
+          "summary": "Laboratory assistant, 2 hours per week; course taught in English."
+        },
+        {
+          "title": "Engineering Drawing and Solid Modeling (Laboratory)",
+          "organization": "Yeditepe University",
+          "period": "2024 - 2025",
+          "summary": "Laboratory assistant, 4 hours per week; course taught in English."
+        },
+        {
+          "title": "System Dynamics and Control (Laboratory)",
+          "organization": "Yeditepe University",
+          "period": "2024 - 2025",
+          "summary": "Laboratory assistant, 4 hours per week; course taught in English."
+        }
+      ]
+    },
+    {
+      "name": "Leadership and Activities",
+      "items": [
+        {
+          "title": "President of the Board",
+          "organization": "Yeditepe University Society of Mechanical Engineering (YUSOME)",
+          "period": "Sep 2023 - Sep 2024",
+          "highlights": [
+            "Organized major events including the IZ'24 Career Fair and MechaniCareer.",
+            "Organized technical visits to strengthen industry ties and professional networking."
+          ]
+        },
+        {
+          "title": "Board Member",
+          "organization": "Yeditepe University Society of Mechanical Engineering (YUSOME)",
+          "period": "2022 - 2025"
+        }
+      ]
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "Elastic Wave Propagation and Band-Gap Tailoring in 2D Metamaterial Unit Cells Using Firedrake",
+      "event": "32nd International Congress on Sound and Vibration (ICSV32), Paper 801",
+      "date": "6 Jul 2026",
+      "location": "Istanbul, Türkiye",
+      "url": "/talks/2026-07-06-icsv32"
     }
   ],
-  "teaching": [
+  "skills": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
+      "name": "Computational Mechanics",
+      "keywords": ["Finite element analysis", "Firedrake", "PETSc", "FEniCS", "FEniCSx"]
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "name": "Engineering Software",
+      "keywords": ["Ansys", "Ansys Fluent", "SolidWorks", "Onshape"]
+    },
+    {
+      "name": "Documentation",
+      "keywords": ["LaTeX", "Google Docs", "Microsoft Office"]
+    },
+    {
+      "name": "Professional",
+      "keywords": ["Leadership", "Teamwork", "Problem-solving", "Networking", "Time management"]
     }
   ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "languages": [
+    {"language": "Turkish", "fluency": "Native"},
+    {"language": "English", "fluency": "Upper-intermediate (B2+); YÖKDİ: 82.5/100"}
+  ],
+  "interests": ["Robotics and mini sumo", "Arduino", "Machine learning", "Indoor sports", "Painting"]
 }

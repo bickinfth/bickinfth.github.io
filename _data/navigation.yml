@@ -3,23 +3,14 @@
 # sayfayı siteden kaldırmaz, sadece menüden gizler.
 
 main:
-  - title: "Feed"
-    url: /year-archive/
-
-  - title: "Bio"
+  - title: "CV"
     url: /cv/
 
   - title: "Research"
     url: /portfolio/
-
-  - title: "Publications"
-    url: /publications/
 
   - title: "Talks"
     url: /talks/
 
   - title: "Teaching"
     url: /teaching/
-
-  - title: "Useful"
-    url: /useful/

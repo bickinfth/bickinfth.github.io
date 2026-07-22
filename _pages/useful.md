@@ -2,6 +2,7 @@
 permalink: /useful/
 title: "Useful"
 author_profile: true
+published: false
 redirect_from: 
   - /md/
   - /useful.html
